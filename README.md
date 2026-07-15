@@ -29,6 +29,9 @@ This app loads a portfolio of projects and provides one place to:
   burn trend (planned vs. actual spend over time).
 - **See the work geographically** — an interactive Tennessee map, colored by status
   and sized by budget.
+- **Track deliverables and submittals** — a submittal log with review due dates,
+  review status, an overdue flag, and evaluation scores, the core of day-to-day
+  deliverable tracking on an oversight team.
 - **Catch bad data first** — a validation gate flags missing fields, impossible
   dates, out-of-range values, duplicate IDs, and budget/status mismatches before
   anything is reported.
@@ -57,7 +60,8 @@ tdot-project-controls-dashboard/
 ├── data/
 │   ├── generate_data.py       # synthetic data generator (seeded, reproducible)
 │   ├── projects.csv           # the portfolio (one row per project)
-│   └── budget_snapshots.csv   # monthly planned vs. actual spend, for trends
+│   ├── budget_snapshots.csv   # monthly planned vs. actual spend, for trends
+│   └── deliverables.csv       # submittal log: reviews, due dates, scores
 ├── src/
 │   ├── app.py                 # Streamlit dashboard (map, controls, budget, QA, reports)
 │   ├── validation.py          # data-quality rules + severity rollup
