@@ -1,9 +1,8 @@
 """
 Standardized report generation.
 
-Produces two views of the same portfolio for different audiences — the posting's
-"generate standardized reports for Project Managers and executive leadership" and
-"produce clear, standardized reports for varied audiences" requirements:
+Produces two views of the same portfolio for different audiences — clear,
+standardized reports for Project Managers and executive leadership:
 
   - executive_summary(): one-page portfolio rollup for leadership
   - pm_detail_report():  project-by-project detail for a PM / region
