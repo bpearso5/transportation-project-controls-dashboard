@@ -21,12 +21,16 @@ needs to be **correct**.
 
 ## The approach
 
+![Project portfolio map — Tennessee projects colored by status, sized by budget](images/map_overview.png)
+
 This app loads a portfolio of projects and provides one place to:
 
 - **Track project controls** — phase, % complete, status, and a schedule-slip flag
   (forecast end vs. planned end).
 - **Monitor budgets and trends** — planned vs. spent vs. remaining, plus a program
   burn trend (planned vs. actual spend over time).
+
+  ![Program burn trend — planned vs. actual cumulative spend](images/budget_trend.png)
 - **See the work geographically** — an interactive Tennessee map, colored by status
   and sized by budget.
 - **Track deliverables and submittals** — a submittal log with review due dates,
@@ -62,6 +66,9 @@ tdot-project-controls-dashboard/
 │   ├── projects.csv           # the portfolio (one row per project)
 │   ├── budget_snapshots.csv   # monthly planned vs. actual spend, for trends
 │   └── deliverables.csv       # submittal log: reviews, due dates, scores
+├── images/
+│   ├── map_overview.png       # README screenshot: status/budget map
+│   └── budget_trend.png       # README screenshot: planned vs. actual burn
 ├── src/
 │   ├── app.py                 # Streamlit dashboard (map, controls, budget, QA, reports)
 │   ├── validation.py          # data-quality rules + severity rollup
