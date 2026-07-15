@@ -33,10 +33,11 @@ st.set_page_config(page_title="TDOT Project Controls", layout="wide")
 def load_data():
     projects = pd.read_csv(DATA_DIR / "projects.csv")
     snapshots = pd.read_csv(DATA_DIR / "budget_snapshots.csv")
-    return projects, snapshots
+    deliverables = pd.read_csv(DATA_DIR / "deliverables.csv")
+    return projects, snapshots, deliverables
 
 
-projects, snapshots = load_data()
+projects, snapshots, deliverables = load_data()
 
 # ----- Sidebar filters -------------------------------------------------------
 st.sidebar.title("Filters")
@@ -68,8 +69,9 @@ k5.metric("Data issues", isum["total_issues"], delta=f"{isum['high']} high", del
 
 st.divider()
 
-tab_map, tab_controls, tab_budget, tab_quality, tab_reports = st.tabs(
-    ["🗺 Map", "📋 Project Controls", "💵 Budget & Trends", "✅ Data Quality", "📄 Reports"]
+tab_map, tab_controls, tab_deliv, tab_budget, tab_quality, tab_reports = st.tabs(
+    ["🗺 Map", "📋 Project Controls", "📥 Deliverables", "💵 Budget & Trends",
+     "✅ Data Quality", "📄 Reports"]
 )
 
 # ----- Map -------------------------------------------------------------------
@@ -150,3 +152,53 @@ with tab_reports:
         fname = "pm_detail_report.md"
     st.markdown(md)
     st.download_button("⬇ Download report (Markdown)", md, file_name=fname)
+
+# ----- Deliverables ------------------------------------------------------------
+with tab_deliv:
+    st.subheader("Deliverable & submittal tracking")
+    st.write("Every submittal in the current view: when it arrived, when the review "
+             "was due, where it stands, and how it scored — the day-to-day of "
+             "tracking deliverables on an oversight/owner's-representative team.")
+
+    AS_OF = pd.Timestamp("2026-05-01")
+    dl = deliverables[deliverables["project_id"].isin(view["project_id"])].copy()
+    dl["submitted_date"] = pd.to_datetime(dl["submitted_date"])
+    dl["review_due_date"] = pd.to_datetime(dl["review_due_date"])
+    dl["review_completed_date"] = pd.to_datetime(dl["review_completed_date"], errors="coerce")
+
+    open_mask = dl["review_status"] == "Under Review"
+    dl["overdue"] = open_mask & (dl["review_due_date"] < AS_OF)
+    dl["days_in_review"] = (
+        dl["review_completed_date"].fillna(AS_OF) - dl["submitted_date"]
+    ).dt.days
+
+    closed = dl[~open_mask]
+    d1, d2, d3, d4, d5 = st.columns(5)
+    d1.metric("Submittals", len(dl))
+    d2.metric("Open reviews", int(open_mask.sum()))
+    d3.metric("Overdue reviews", int(dl["overdue"].sum()),
+              delta=f"{int(dl['overdue'].sum())} need attention" if dl["overdue"].sum() else "all current",
+              delta_color="inverse" if dl["overdue"].sum() else "off")
+    d4.metric("Avg review turnaround", f"{closed['days_in_review'].mean():.0f} days" if len(closed) else "—")
+    approved = closed["review_status"].isin(["Approved", "Approved as Noted"]).mean() * 100 if len(closed) else 0
+    d5.metric("Approval rate", f"{approved:.0f}%")
+
+    show = dl.sort_values(["overdue", "review_due_date"], ascending=[False, True]).copy()
+    show["overdue"] = show["overdue"].map({True: "🔴 Overdue", False: ""})
+    cols_d = ["submittal_id", "project_id", "title", "submitted_date", "review_due_date",
+              "review_status", "overdue", "days_in_review", "evaluation_score", "reviewer"]
+    st.dataframe(
+        show[cols_d], use_container_width=True, hide_index=True,
+        column_config={
+            "submitted_date": st.column_config.DateColumn("submitted"),
+            "review_due_date": st.column_config.DateColumn("review due"),
+            "evaluation_score": st.column_config.NumberColumn("score (1–5)"),
+        },
+    )
+
+    st.subheader("Review status by discipline")
+    by_disc = dl.groupby(["discipline", "review_status"]).size().reset_index(name="count")
+    fig_d = px.bar(by_disc, x="discipline", y="count", color="review_status",
+                   labels={"count": "submittals", "discipline": "", "review_status": ""},
+                   height=380)
+    st.plotly_chart(fig_d, use_container_width=True)
