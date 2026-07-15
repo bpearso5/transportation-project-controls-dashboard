@@ -2,8 +2,8 @@
 Data-quality gate for the project portfolio.
 
 Runs a set of validation rules and returns a tidy DataFrame of issues, each with a
-severity. This is the "strong attention to detail and commitment to data accuracy"
-piece of the posting: nothing should be reported to leadership before it passes here.
+severity. This is the data-accuracy backbone of the project: nothing should be
+reported to leadership before it passes here.
 """
 
 from __future__ import annotations
