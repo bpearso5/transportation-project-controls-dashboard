@@ -10,6 +10,7 @@ extend the scaffold.
 | Role responsibility | Feature in this project | File | Status |
 |---|---|---|---|
 | Project control: workflow tracking, scheduling, production monitoring | "Project Controls" tab — phase, % complete, schedule slip flag, status | `src/app.py` | ✅ scaffolded |
+| Track deliverables and submittals; monitor reviews and evaluation scores | "Deliverables" tab — submittal log, review status, overdue flag, scores | `src/app.py` + `data/deliverables.csv` | ✅ scaffolded |
 | Quality management; commitment to data accuracy | Data-quality gate that validates every record before reporting | `src/validation.py` | ✅ scaffolded |
 | Financial tracking; budget summaries | Budget tab — planned vs. spent vs. remaining per project | `src/app.py` | ✅ scaffolded |
 | Integrate project data into mapping tools | Interactive Tennessee map, color = status, size = budget | `src/app.py` (Plotly) | ✅ scaffolded |
@@ -32,7 +33,7 @@ extend the scaffold.
 ## Good next extensions (to deepen the project after the first pass)
 
 - [ ] Add an **SQLite backend** instead of CSV, and write the validation rules as SQL — pulls the SQL data-validation project into this one.
-- [ ] - [ ] Add a **schedule baseline variance** chart (planned vs. forecast end dates across the portfolio).
-- [ ] - [ ] Export the executive summary to **PDF** (reportlab or weasyprint) for a true leadership deliverable.
-- [ ] - [ ] Add a small **"what changed since last month"** diff so the report reads like a real status update.
-- [ ] - [ ] Write a few **unit tests** for `validation.py` (pytest) — signals engineering discipline.
+- [ ] Add a **schedule baseline variance** chart (planned vs. forecast end dates across the portfolio).
+- [ ] Export the executive summary to **PDF** (reportlab or weasyprint) for a true leadership deliverable.
+- [ ] Add a small **"what changed since last month"** diff so the report reads like a real status update.
+- [ ] Write a few **unit tests** for `validation.py` (pytest) — signals engineering discipline.
