@@ -4,9 +4,10 @@ Generate synthetic transportation project data styled after TDOT project control
 IMPORTANT: This is 100% fabricated data for portfolio/demo purposes.
 It does not use, reference, or reproduce any real TDOT records.
 
-Outputs two files in this directory:
+Outputs three files in this directory:
   - projects.csv          one row per project (the portfolio)
   - budget_snapshots.csv  monthly planned-vs-actual spend per project (for trend lines)
+  - deliverables.csv      submittal / deliverable log per project (for review tracking)
 
 A handful of deliberate data-quality issues are injected at the end so the
 validation module has something real to catch. They are documented in README.md.
@@ -166,15 +167,80 @@ def inject_issues(projects: pd.DataFrame) -> pd.DataFrame:
     return df
 
 
+# ----- Deliverables / submittal log ------------------------------------------
+
+DISCIPLINES = [
+    "Roadway", "Structures", "Drainage", "Utilities",
+    "Right-of-Way", "Environmental", "Traffic / ITS", "Geotechnical",
+]
+
+SUBMITTAL_TYPES = [
+    "Design Package", "Shop Drawing", "RFI Response", "Monthly Progress Report",
+    "Permit Application", "Schedule Update", "QC Inspection Report",
+]
+
+REVIEWERS = ["L. Hartman", "K. Osei", "P. Delgado", "C. Mott", "E. Zhang"]
+
+
+def build_deliverables(projects: pd.DataFrame) -> pd.DataFrame:
+    """One row per submittal: what the developer/contractor turned in, when the
+    review was due, its current review status, and the evaluation score."""
+    drng = np.random.default_rng(7)  # separate stream so existing CSVs are unchanged
+    rows = []
+    n_sub = 1
+    for _, p in projects.iterrows():
+        start = pd.Timestamp(p["start_date"])
+        window = max((TODAY - start).days, 30)
+        for _ in range(int(drng.integers(2, 5))):
+            discipline = str(drng.choice(DISCIPLINES))
+            stype = str(drng.choice(SUBMITTAL_TYPES))
+            submitted = start + pd.Timedelta(days=int(drng.integers(0, window)))
+            review_days = int(drng.choice([14, 21, 30]))
+            due = submitted + pd.Timedelta(days=review_days)
+
+            status = str(drng.choice(
+                ["Approved", "Approved as Noted", "Revise & Resubmit", "Under Review"],
+                p=[0.45, 0.20, 0.12, 0.23]))
+            if status == "Under Review":
+                # open reviews are recent: some current, some past due
+                submitted = TODAY - pd.Timedelta(days=int(drng.integers(1, 60)))
+                due = submitted + pd.Timedelta(days=review_days)
+            completed = submitted + pd.Timedelta(days=int(drng.integers(3, review_days + 25)))
+            if status == "Under Review" or completed > TODAY:
+                status, completed_str, score = "Under Review", "", ""
+            else:
+                completed_str = completed.date().isoformat()
+                score = int(drng.choice([2, 3, 4, 5], p=[0.05, 0.20, 0.45, 0.30]))
+
+            rows.append({
+                "submittal_id": f"SUB-{n_sub:04d}",
+                "project_id": p["project_id"],
+                "title": f"{discipline} — {stype}",
+                "discipline": discipline,
+                "submittal_type": stype,
+                "submitted_date": submitted.date().isoformat(),
+                "review_due_date": due.date().isoformat(),
+                "review_status": status,
+                "review_completed_date": completed_str,
+                "evaluation_score": score,
+                "reviewer": str(drng.choice(REVIEWERS)),
+            })
+            n_sub += 1
+    return pd.DataFrame(rows)
+
+
 def main() -> None:
     projects = build_projects()
     snapshots = build_snapshots(projects)
+    deliverables = build_deliverables(projects)
     projects = inject_issues(projects)
 
     out_dir = __import__("pathlib").Path(__file__).resolve().parent
     projects.to_csv(out_dir / "projects.csv", index=False)
     snapshots.to_csv(out_dir / "budget_snapshots.csv", index=False)
-    print(f"Wrote {len(projects)} projects and {len(snapshots)} budget snapshots.")
+    deliverables.to_csv(out_dir / "deliverables.csv", index=False)
+    print(f"Wrote {len(projects)} projects, {len(snapshots)} budget snapshots, "
+          f"and {len(deliverables)} deliverables.")
 
 
 if __name__ == "__main__":
