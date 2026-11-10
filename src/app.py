@@ -1,5 +1,5 @@
 """
-TDOT-style Project Controls Dashboard
+Transportation Project Controls Dashboard
 =====================================
 Run with:  streamlit run src/app.py
 
@@ -26,7 +26,7 @@ STATUS_COLORS = {
     "Delayed": "#C62828", "Complete": "#1565C0",
 }
 
-st.set_page_config(page_title="TDOT Project Controls", layout="wide")
+st.set_page_config(page_title="Transportation Project Controls", layout="wide")
 
 
 @st.cache_data
@@ -53,8 +53,8 @@ if region != "All regions":
 view = view[view["status"].isin(statuses) & view["project_type"].isin(ptypes)]
 
 # ----- Header + KPI row ------------------------------------------------------
-st.title("Tennessee Transportation — Project Controls Dashboard")
-st.caption("Synthetic demo data. Not affiliated with or sourced from TDOT.")
+st.title("Transportation Project Controls Dashboard")
+st.caption("Synthetic demo data. Not affiliated with or sourced from any state department of transportation.")
 
 issues = validation.validate(view)
 isum = validation.summary(issues)

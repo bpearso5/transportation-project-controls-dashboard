@@ -1,126 +1,126 @@
 submittal_id,project_id,title,discipline,submittal_type,submitted_date,review_due_date,review_status,review_completed_date,evaluation_score,reviewer
-SUB-0001,TDOT-2024-1000,Environmental — Permit Application,Environmental,Permit Application,2026-02-18,2026-03-11,Approved,2026-03-26,4,K. Osei
-SUB-0002,TDOT-2024-1000,Traffic / ITS — QC Inspection Report,Traffic / ITS,QC Inspection Report,2026-03-13,2026-04-03,Under Review,,,P. Delgado
-SUB-0003,TDOT-2024-1000,Traffic / ITS — RFI Response,Traffic / ITS,RFI Response,2025-01-29,2025-02-12,Approved,2025-03-08,4,P. Delgado
-SUB-0004,TDOT-2024-1000,Right-of-Way — Monthly Progress Report,Right-of-Way,Monthly Progress Report,2026-03-20,2026-04-19,Under Review,,,K. Osei
-SUB-0005,TDOT-2025-1001,Utilities — Shop Drawing,Utilities,Shop Drawing,2026-04-01,2026-04-15,Approved as Noted,2026-04-08,2,L. Hartman
-SUB-0006,TDOT-2025-1001,Structures — Monthly Progress Report,Structures,Monthly Progress Report,2026-03-13,2026-04-03,Under Review,,,P. Delgado
-SUB-0007,TDOT-2025-1001,Right-of-Way — Shop Drawing,Right-of-Way,Shop Drawing,2026-01-24,2026-02-14,Approved,2026-02-06,3,E. Zhang
-SUB-0008,TDOT-2025-1001,Environmental — QC Inspection Report,Environmental,QC Inspection Report,2025-11-29,2025-12-29,Approved,2025-12-21,5,C. Mott
-SUB-0009,TDOT-2025-1002,Right-of-Way — Shop Drawing,Right-of-Way,Shop Drawing,2026-04-16,2026-05-16,Under Review,,,E. Zhang
-SUB-0010,TDOT-2025-1002,Environmental — Permit Application,Environmental,Permit Application,2025-04-09,2025-05-09,Approved,2025-04-24,4,P. Delgado
-SUB-0011,TDOT-2025-1003,Traffic / ITS — Permit Application,Traffic / ITS,Permit Application,2025-06-27,2025-07-18,Approved,2025-07-25,4,P. Delgado
-SUB-0012,TDOT-2025-1003,Drainage — Shop Drawing,Drainage,Shop Drawing,2025-03-18,2025-04-08,Approved,2025-04-25,5,K. Osei
-SUB-0013,TDOT-2025-1003,Right-of-Way — Monthly Progress Report,Right-of-Way,Monthly Progress Report,2025-10-23,2025-11-13,Revise & Resubmit,2025-11-22,3,P. Delgado
-SUB-0014,TDOT-2024-1004,Drainage — Shop Drawing,Drainage,Shop Drawing,2024-04-25,2024-05-16,Approved,2024-05-15,3,E. Zhang
-SUB-0015,TDOT-2024-1004,Roadway — Permit Application,Roadway,Permit Application,2026-04-25,2026-05-09,Under Review,,,P. Delgado
-SUB-0016,TDOT-2024-1004,Structures — Schedule Update,Structures,Schedule Update,2026-03-06,2026-03-27,Under Review,,,P. Delgado
-SUB-0017,TDOT-2024-1005,Structures — Monthly Progress Report,Structures,Monthly Progress Report,2025-02-08,2025-03-10,Approved as Noted,2025-03-31,3,K. Osei
-SUB-0018,TDOT-2024-1005,Geotechnical — QC Inspection Report,Geotechnical,QC Inspection Report,2025-10-14,2025-11-04,Approved,2025-11-10,4,K. Osei
-SUB-0019,TDOT-2025-1006,Environmental — Design Package,Environmental,Design Package,2026-04-25,2026-05-25,Under Review,,,P. Delgado
-SUB-0020,TDOT-2025-1006,Utilities — RFI Response,Utilities,RFI Response,2026-01-15,2026-02-14,Approved,2026-02-24,2,K. Osei
-SUB-0021,TDOT-2024-1007,Roadway — RFI Response,Roadway,RFI Response,2026-04-03,2026-04-17,Approved,2026-04-29,4,P. Delgado
-SUB-0022,TDOT-2024-1007,Traffic / ITS — Permit Application,Traffic / ITS,Permit Application,2024-10-30,2024-11-13,Revise & Resubmit,2024-11-23,4,E. Zhang
-SUB-0023,TDOT-2024-1007,Right-of-Way — Monthly Progress Report,Right-of-Way,Monthly Progress Report,2025-10-16,2025-11-15,Approved,2025-12-05,5,K. Osei
-SUB-0024,TDOT-2024-1007,Roadway — Permit Application,Roadway,Permit Application,2025-10-06,2025-11-05,Approved,2025-11-20,4,E. Zhang
-SUB-0025,TDOT-2024-1008,Geotechnical — Design Package,Geotechnical,Design Package,2026-03-05,2026-03-26,Under Review,,,L. Hartman
-SUB-0026,TDOT-2024-1008,Environmental — Shop Drawing,Environmental,Shop Drawing,2024-10-20,2024-11-03,Approved,2024-10-30,3,K. Osei
-SUB-0027,TDOT-2024-1008,Drainage — RFI Response,Drainage,RFI Response,2026-03-24,2026-04-23,Approved,2026-04-25,4,L. Hartman
-SUB-0028,TDOT-2024-1008,Geotechnical — Shop Drawing,Geotechnical,Shop Drawing,2025-03-26,2025-04-09,Approved as Noted,2025-05-03,4,E. Zhang
-SUB-0029,TDOT-2024-1009,Traffic / ITS — Schedule Update,Traffic / ITS,Schedule Update,2025-08-22,2025-09-12,Approved,2025-10-04,4,E. Zhang
-SUB-0030,TDOT-2024-1009,Environmental — QC Inspection Report,Environmental,QC Inspection Report,2024-11-11,2024-11-25,Approved,2024-11-19,5,P. Delgado
-SUB-0031,TDOT-2024-1009,Environmental — Shop Drawing,Environmental,Shop Drawing,2025-12-25,2026-01-24,Revise & Resubmit,2026-01-13,4,C. Mott
-SUB-0032,TDOT-2024-1009,Geotechnical — QC Inspection Report,Geotechnical,QC Inspection Report,2025-03-10,2025-03-24,Approved,2025-04-08,3,K. Osei
-SUB-0033,TDOT-2024-1010,Structures — RFI Response,Structures,RFI Response,2026-02-27,2026-03-29,Approved,2026-04-14,4,E. Zhang
-SUB-0034,TDOT-2024-1010,Utilities — Shop Drawing,Utilities,Shop Drawing,2025-07-07,2025-07-28,Approved,2025-08-07,5,C. Mott
-SUB-0035,TDOT-2024-1010,Utilities — Shop Drawing,Utilities,Shop Drawing,2025-07-31,2025-08-21,Approved,2025-08-30,3,C. Mott
-SUB-0036,TDOT-2025-1011,Roadway — Schedule Update,Roadway,Schedule Update,2026-03-21,2026-04-20,Under Review,,,L. Hartman
-SUB-0037,TDOT-2025-1011,Geotechnical — QC Inspection Report,Geotechnical,QC Inspection Report,2026-03-09,2026-04-08,Under Review,,,E. Zhang
-SUB-0038,TDOT-2025-1011,Geotechnical — RFI Response,Geotechnical,RFI Response,2025-12-23,2026-01-06,Approved,2025-12-27,4,C. Mott
-SUB-0039,TDOT-2025-1012,Geotechnical — Shop Drawing,Geotechnical,Shop Drawing,2026-04-23,2026-05-14,Under Review,,,P. Delgado
-SUB-0040,TDOT-2025-1012,Roadway — Shop Drawing,Roadway,Shop Drawing,2025-09-07,2025-10-07,Approved,2025-10-03,5,K. Osei
-SUB-0041,TDOT-2025-1013,Right-of-Way — Permit Application,Right-of-Way,Permit Application,2026-03-17,2026-04-07,Approved as Noted,2026-04-17,3,C. Mott
-SUB-0042,TDOT-2025-1013,Right-of-Way — RFI Response,Right-of-Way,RFI Response,2026-03-14,2026-03-28,Under Review,,,E. Zhang
-SUB-0043,TDOT-2025-1013,Roadway — Design Package,Roadway,Design Package,2026-01-20,2026-02-10,Approved,2026-01-29,4,L. Hartman
-SUB-0044,TDOT-2025-1013,Structures — Schedule Update,Structures,Schedule Update,2026-04-05,2026-04-19,Under Review,,,K. Osei
-SUB-0045,TDOT-2023-1014,Traffic / ITS — Schedule Update,Traffic / ITS,Schedule Update,2025-09-27,2025-10-27,Approved,2025-10-30,4,P. Delgado
-SUB-0046,TDOT-2023-1014,Drainage — Permit Application,Drainage,Permit Application,2025-11-04,2025-11-18,Revise & Resubmit,2025-11-08,5,C. Mott
-SUB-0047,TDOT-2025-1015,Traffic / ITS — RFI Response,Traffic / ITS,RFI Response,2026-03-19,2026-04-02,Under Review,,,E. Zhang
-SUB-0048,TDOT-2025-1015,Structures — Shop Drawing,Structures,Shop Drawing,2025-12-13,2025-12-27,Revise & Resubmit,2026-01-08,4,K. Osei
-SUB-0049,TDOT-2025-1015,Environmental — QC Inspection Report,Environmental,QC Inspection Report,2026-04-08,2026-04-29,Under Review,,,P. Delgado
-SUB-0050,TDOT-2025-1015,Geotechnical — Permit Application,Geotechnical,Permit Application,2026-02-04,2026-02-18,Approved,2026-03-09,4,L. Hartman
-SUB-0051,TDOT-2025-1016,Traffic / ITS — Monthly Progress Report,Traffic / ITS,Monthly Progress Report,2025-09-18,2025-10-02,Approved as Noted,2025-10-04,3,C. Mott
-SUB-0052,TDOT-2025-1016,Structures — Shop Drawing,Structures,Shop Drawing,2025-09-01,2025-10-01,Approved,2025-09-27,5,C. Mott
-SUB-0053,TDOT-2025-1016,Right-of-Way — QC Inspection Report,Right-of-Way,QC Inspection Report,2025-08-21,2025-09-04,Revise & Resubmit,2025-08-26,3,P. Delgado
-SUB-0054,TDOT-2025-1016,Structures — Schedule Update,Structures,Schedule Update,2026-04-26,2026-05-17,Under Review,,,K. Osei
-SUB-0055,TDOT-2025-1017,Drainage — Schedule Update,Drainage,Schedule Update,2026-03-02,2026-03-23,Approved,2026-03-31,4,L. Hartman
-SUB-0056,TDOT-2025-1017,Geotechnical — QC Inspection Report,Geotechnical,QC Inspection Report,2025-09-22,2025-10-06,Approved,2025-10-20,5,L. Hartman
-SUB-0057,TDOT-2025-1017,Traffic / ITS — Monthly Progress Report,Traffic / ITS,Monthly Progress Report,2026-02-28,2026-03-30,Approved,2026-04-07,3,K. Osei
-SUB-0058,TDOT-2025-1017,Right-of-Way — QC Inspection Report,Right-of-Way,QC Inspection Report,2026-02-04,2026-03-06,Approved,2026-02-16,4,K. Osei
-SUB-0059,TDOT-2025-1018,Environmental — QC Inspection Report,Environmental,QC Inspection Report,2025-10-19,2025-11-02,Approved,2025-10-23,4,C. Mott
-SUB-0060,TDOT-2025-1018,Structures — Schedule Update,Structures,Schedule Update,2026-03-15,2026-04-14,Under Review,,,L. Hartman
-SUB-0061,TDOT-2025-1018,Traffic / ITS — Permit Application,Traffic / ITS,Permit Application,2025-08-08,2025-08-22,Approved,2025-09-03,5,P. Delgado
-SUB-0062,TDOT-2025-1018,Traffic / ITS — RFI Response,Traffic / ITS,RFI Response,2025-12-29,2026-01-12,Approved,2026-01-17,4,P. Delgado
-SUB-0063,TDOT-2025-1019,Drainage — Schedule Update,Drainage,Schedule Update,2025-09-12,2025-10-03,Approved,2025-10-26,5,P. Delgado
-SUB-0064,TDOT-2025-1019,Traffic / ITS — RFI Response,Traffic / ITS,RFI Response,2026-04-09,2026-05-09,Under Review,,,C. Mott
-SUB-0065,TDOT-2025-1020,Roadway — Schedule Update,Roadway,Schedule Update,2026-04-05,2026-05-05,Approved,2026-04-25,5,C. Mott
-SUB-0066,TDOT-2025-1020,Drainage — QC Inspection Report,Drainage,QC Inspection Report,2025-08-23,2025-09-06,Approved,2025-09-19,3,E. Zhang
-SUB-0067,TDOT-2024-1021,Structures — Monthly Progress Report,Structures,Monthly Progress Report,2025-06-10,2025-07-10,Revise & Resubmit,2025-07-06,3,P. Delgado
-SUB-0068,TDOT-2024-1021,Geotechnical — Schedule Update,Geotechnical,Schedule Update,2024-09-09,2024-10-09,Approved,2024-10-21,4,L. Hartman
-SUB-0069,TDOT-2024-1022,Roadway — RFI Response,Roadway,RFI Response,2025-06-24,2025-07-08,Revise & Resubmit,2025-07-05,3,P. Delgado
-SUB-0070,TDOT-2024-1022,Geotechnical — QC Inspection Report,Geotechnical,QC Inspection Report,2026-03-23,2026-04-22,Under Review,,,L. Hartman
-SUB-0071,TDOT-2025-1023,Environmental — Shop Drawing,Environmental,Shop Drawing,2025-09-21,2025-10-05,Approved,2025-10-29,3,P. Delgado
-SUB-0072,TDOT-2025-1023,Structures — Shop Drawing,Structures,Shop Drawing,2025-10-15,2025-11-14,Approved as Noted,2025-12-05,4,L. Hartman
-SUB-0073,TDOT-2025-1023,Traffic / ITS — Shop Drawing,Traffic / ITS,Shop Drawing,2025-05-28,2025-06-18,Approved,2025-07-05,4,P. Delgado
-SUB-0074,TDOT-2024-1024,Right-of-Way — QC Inspection Report,Right-of-Way,QC Inspection Report,2026-03-15,2026-04-14,Under Review,,,L. Hartman
-SUB-0075,TDOT-2024-1024,Drainage — Design Package,Drainage,Design Package,2026-03-05,2026-03-19,Under Review,,,K. Osei
-SUB-0076,TDOT-2024-1024,Structures — Permit Application,Structures,Permit Application,2026-04-09,2026-05-09,Approved as Noted,2026-04-22,4,P. Delgado
-SUB-0077,TDOT-2024-1025,Traffic / ITS — Design Package,Traffic / ITS,Design Package,2025-10-29,2025-11-12,Approved as Noted,2025-12-06,3,L. Hartman
-SUB-0078,TDOT-2024-1025,Geotechnical — Monthly Progress Report,Geotechnical,Monthly Progress Report,2026-01-08,2026-02-07,Revise & Resubmit,2026-02-21,5,E. Zhang
-SUB-0079,TDOT-2024-1025,Traffic / ITS — Permit Application,Traffic / ITS,Permit Application,2024-10-31,2024-11-30,Revise & Resubmit,2024-12-23,4,C. Mott
-SUB-0080,TDOT-2024-1025,Drainage — Shop Drawing,Drainage,Shop Drawing,2024-05-18,2024-06-17,Approved,2024-06-10,4,E. Zhang
-SUB-0081,TDOT-2025-1026,Drainage — Schedule Update,Drainage,Schedule Update,2026-04-15,2026-05-06,Approved as Noted,2026-04-24,3,L. Hartman
-SUB-0082,TDOT-2025-1026,Geotechnical — RFI Response,Geotechnical,RFI Response,2026-01-18,2026-02-08,Approved,2026-02-24,5,P. Delgado
-SUB-0083,TDOT-2025-1026,Environmental — Schedule Update,Environmental,Schedule Update,2026-02-04,2026-03-06,Approved,2026-03-28,4,L. Hartman
-SUB-0084,TDOT-2025-1026,Environmental — Shop Drawing,Environmental,Shop Drawing,2026-03-22,2026-04-21,Revise & Resubmit,2026-04-11,3,L. Hartman
-SUB-0085,TDOT-2024-1027,Right-of-Way — Schedule Update,Right-of-Way,Schedule Update,2024-07-03,2024-07-17,Revise & Resubmit,2024-08-03,5,L. Hartman
-SUB-0086,TDOT-2024-1027,Traffic / ITS — Monthly Progress Report,Traffic / ITS,Monthly Progress Report,2025-03-25,2025-04-15,Revise & Resubmit,2025-04-20,5,P. Delgado
-SUB-0087,TDOT-2024-1027,Geotechnical — Design Package,Geotechnical,Design Package,2026-03-25,2026-04-15,Approved as Noted,2026-03-29,2,E. Zhang
-SUB-0088,TDOT-2025-1028,Utilities — Design Package,Utilities,Design Package,2025-12-26,2026-01-09,Approved,2026-01-17,4,K. Osei
-SUB-0089,TDOT-2025-1028,Structures — Design Package,Structures,Design Package,2025-07-31,2025-08-14,Approved,2025-09-03,4,E. Zhang
-SUB-0090,TDOT-2025-1028,Traffic / ITS — QC Inspection Report,Traffic / ITS,QC Inspection Report,2026-03-29,2026-04-12,Under Review,,,P. Delgado
-SUB-0091,TDOT-2025-1028,Traffic / ITS — Permit Application,Traffic / ITS,Permit Application,2025-06-07,2025-07-07,Revise & Resubmit,2025-07-13,4,C. Mott
-SUB-0092,TDOT-2025-1029,Right-of-Way — RFI Response,Right-of-Way,RFI Response,2025-10-27,2025-11-10,Approved,2025-11-25,4,L. Hartman
-SUB-0093,TDOT-2025-1029,Traffic / ITS — QC Inspection Report,Traffic / ITS,QC Inspection Report,2026-04-11,2026-04-25,Under Review,,,K. Osei
-SUB-0094,TDOT-2024-1030,Traffic / ITS — Design Package,Traffic / ITS,Design Package,2025-11-25,2025-12-25,Revise & Resubmit,2025-12-21,2,C. Mott
-SUB-0095,TDOT-2024-1030,Utilities — QC Inspection Report,Utilities,QC Inspection Report,2026-01-18,2026-02-01,Approved as Noted,2026-02-10,4,C. Mott
-SUB-0096,TDOT-2024-1030,Environmental — Shop Drawing,Environmental,Shop Drawing,2025-06-30,2025-07-21,Approved,2025-07-21,4,C. Mott
-SUB-0097,TDOT-2025-1031,Structures — Monthly Progress Report,Structures,Monthly Progress Report,2025-10-15,2025-11-14,Approved,2025-11-03,4,P. Delgado
-SUB-0098,TDOT-2025-1031,Structures — Permit Application,Structures,Permit Application,2026-03-11,2026-04-10,Under Review,,,K. Osei
-SUB-0099,TDOT-2025-1032,Drainage — QC Inspection Report,Drainage,QC Inspection Report,2025-10-22,2025-11-12,Revise & Resubmit,2025-10-30,5,L. Hartman
-SUB-0100,TDOT-2025-1032,Structures — RFI Response,Structures,RFI Response,2025-12-24,2026-01-14,Approved,2026-02-07,5,P. Delgado
-SUB-0101,TDOT-2024-1033,Traffic / ITS — Shop Drawing,Traffic / ITS,Shop Drawing,2025-06-16,2025-07-16,Approved as Noted,2025-07-28,4,C. Mott
-SUB-0102,TDOT-2024-1033,Right-of-Way — RFI Response,Right-of-Way,RFI Response,2025-01-02,2025-01-23,Revise & Resubmit,2025-01-18,5,P. Delgado
-SUB-0103,TDOT-2024-1033,Roadway — Shop Drawing,Roadway,Shop Drawing,2025-11-20,2025-12-11,Approved,2025-12-28,3,L. Hartman
-SUB-0104,TDOT-2025-1034,Right-of-Way — Shop Drawing,Right-of-Way,Shop Drawing,2025-12-30,2026-01-20,Approved,2026-01-13,4,C. Mott
-SUB-0105,TDOT-2025-1034,Drainage — Monthly Progress Report,Drainage,Monthly Progress Report,2025-11-28,2025-12-19,Approved as Noted,2025-12-08,5,K. Osei
-SUB-0106,TDOT-2025-1034,Drainage — RFI Response,Drainage,RFI Response,2026-04-04,2026-04-18,Approved,2026-04-21,4,L. Hartman
-SUB-0107,TDOT-2025-1034,Geotechnical — Schedule Update,Geotechnical,Schedule Update,2026-01-04,2026-02-03,Approved,2026-01-15,4,L. Hartman
-SUB-0108,TDOT-2024-1035,Traffic / ITS — RFI Response,Traffic / ITS,RFI Response,2025-02-26,2025-03-28,Revise & Resubmit,2025-04-18,4,E. Zhang
-SUB-0109,TDOT-2024-1035,Traffic / ITS — RFI Response,Traffic / ITS,RFI Response,2025-10-03,2025-10-17,Approved,2025-10-18,4,L. Hartman
-SUB-0110,TDOT-2024-1035,Utilities — Design Package,Utilities,Design Package,2024-05-12,2024-06-02,Approved as Noted,2024-06-02,3,E. Zhang
-SUB-0111,TDOT-2024-1035,Structures — RFI Response,Structures,RFI Response,2026-04-14,2026-05-14,Under Review,,,L. Hartman
-SUB-0112,TDOT-2025-1036,Structures — RFI Response,Structures,RFI Response,2025-09-07,2025-10-07,Approved,2025-10-04,4,L. Hartman
-SUB-0113,TDOT-2025-1036,Structures — Design Package,Structures,Design Package,2025-10-07,2025-11-06,Approved,2025-11-20,4,L. Hartman
-SUB-0114,TDOT-2024-1037,Traffic / ITS — RFI Response,Traffic / ITS,RFI Response,2025-07-12,2025-08-11,Approved,2025-08-15,5,E. Zhang
-SUB-0115,TDOT-2024-1037,Right-of-Way — Permit Application,Right-of-Way,Permit Application,2025-04-26,2025-05-10,Revise & Resubmit,2025-06-03,5,C. Mott
-SUB-0116,TDOT-2024-1037,Geotechnical — Shop Drawing,Geotechnical,Shop Drawing,2026-04-22,2026-05-22,Under Review,,,K. Osei
-SUB-0117,TDOT-2024-1038,Drainage — Design Package,Drainage,Design Package,2026-03-06,2026-04-05,Under Review,,,K. Osei
-SUB-0118,TDOT-2024-1038,Right-of-Way — Schedule Update,Right-of-Way,Schedule Update,2025-08-13,2025-09-12,Approved as Noted,2025-09-20,5,E. Zhang
-SUB-0119,TDOT-2025-1039,Traffic / ITS — RFI Response,Traffic / ITS,RFI Response,2025-07-22,2025-08-12,Approved,2025-08-11,4,C. Mott
-SUB-0120,TDOT-2025-1039,Right-of-Way — RFI Response,Right-of-Way,RFI Response,2025-12-26,2026-01-25,Revise & Resubmit,2026-01-02,3,K. Osei
-SUB-0121,TDOT-2025-1039,Utilities — Design Package,Utilities,Design Package,2025-10-09,2025-10-23,Approved,2025-11-16,5,P. Delgado
-SUB-0122,TDOT-2024-1040,Drainage — RFI Response,Drainage,RFI Response,2026-03-21,2026-04-20,Under Review,,,P. Delgado
-SUB-0123,TDOT-2024-1040,Drainage — Design Package,Drainage,Design Package,2024-07-10,2024-08-09,Approved,2024-07-17,5,L. Hartman
-SUB-0124,TDOT-2024-1041,Environmental — Schedule Update,Environmental,Schedule Update,2026-04-15,2026-04-29,Under Review,,,K. Osei
-SUB-0125,TDOT-2024-1041,Environmental — Permit Application,Environmental,Permit Application,2026-03-31,2026-04-14,Under Review,,,E. Zhang
+SUB-0001,PRJ-2024-1000,Environmental — Permit Application,Environmental,Permit Application,2026-02-18,2026-03-11,Approved,2026-03-26,4,K. Osei
+SUB-0002,PRJ-2024-1000,Traffic / ITS — QC Inspection Report,Traffic / ITS,QC Inspection Report,2026-03-13,2026-04-03,Under Review,,,P. Delgado
+SUB-0003,PRJ-2024-1000,Traffic / ITS — RFI Response,Traffic / ITS,RFI Response,2025-01-29,2025-02-12,Approved,2025-03-08,4,P. Delgado
+SUB-0004,PRJ-2024-1000,Right-of-Way — Monthly Progress Report,Right-of-Way,Monthly Progress Report,2026-03-20,2026-04-19,Under Review,,,K. Osei
+SUB-0005,PRJ-2025-1001,Utilities — Shop Drawing,Utilities,Shop Drawing,2026-04-01,2026-04-15,Approved as Noted,2026-04-08,2,L. Hartman
+SUB-0006,PRJ-2025-1001,Structures — Monthly Progress Report,Structures,Monthly Progress Report,2026-03-13,2026-04-03,Under Review,,,P. Delgado
+SUB-0007,PRJ-2025-1001,Right-of-Way — Shop Drawing,Right-of-Way,Shop Drawing,2026-01-24,2026-02-14,Approved,2026-02-06,3,E. Zhang
+SUB-0008,PRJ-2025-1001,Environmental — QC Inspection Report,Environmental,QC Inspection Report,2025-11-29,2025-12-29,Approved,2025-12-21,5,C. Mott
+SUB-0009,PRJ-2025-1002,Right-of-Way — Shop Drawing,Right-of-Way,Shop Drawing,2026-04-16,2026-05-16,Under Review,,,E. Zhang
+SUB-0010,PRJ-2025-1002,Environmental — Permit Application,Environmental,Permit Application,2025-04-09,2025-05-09,Approved,2025-04-24,4,P. Delgado
+SUB-0011,PRJ-2025-1003,Traffic / ITS — Permit Application,Traffic / ITS,Permit Application,2025-06-27,2025-07-18,Approved,2025-07-25,4,P. Delgado
+SUB-0012,PRJ-2025-1003,Drainage — Shop Drawing,Drainage,Shop Drawing,2025-03-18,2025-04-08,Approved,2025-04-25,5,K. Osei
+SUB-0013,PRJ-2025-1003,Right-of-Way — Monthly Progress Report,Right-of-Way,Monthly Progress Report,2025-10-23,2025-11-13,Revise & Resubmit,2025-11-22,3,P. Delgado
+SUB-0014,PRJ-2024-1004,Drainage — Shop Drawing,Drainage,Shop Drawing,2024-04-25,2024-05-16,Approved,2024-05-15,3,E. Zhang
+SUB-0015,PRJ-2024-1004,Roadway — Permit Application,Roadway,Permit Application,2026-04-25,2026-05-09,Under Review,,,P. Delgado
+SUB-0016,PRJ-2024-1004,Structures — Schedule Update,Structures,Schedule Update,2026-03-06,2026-03-27,Under Review,,,P. Delgado
+SUB-0017,PRJ-2024-1005,Structures — Monthly Progress Report,Structures,Monthly Progress Report,2025-02-08,2025-03-10,Approved as Noted,2025-03-31,3,K. Osei
+SUB-0018,PRJ-2024-1005,Geotechnical — QC Inspection Report,Geotechnical,QC Inspection Report,2025-10-14,2025-11-04,Approved,2025-11-10,4,K. Osei
+SUB-0019,PRJ-2025-1006,Environmental — Design Package,Environmental,Design Package,2026-04-25,2026-05-25,Under Review,,,P. Delgado
+SUB-0020,PRJ-2025-1006,Utilities — RFI Response,Utilities,RFI Response,2026-01-15,2026-02-14,Approved,2026-02-24,2,K. Osei
+SUB-0021,PRJ-2024-1007,Roadway — RFI Response,Roadway,RFI Response,2026-04-03,2026-04-17,Approved,2026-04-29,4,P. Delgado
+SUB-0022,PRJ-2024-1007,Traffic / ITS — Permit Application,Traffic / ITS,Permit Application,2024-10-30,2024-11-13,Revise & Resubmit,2024-11-23,4,E. Zhang
+SUB-0023,PRJ-2024-1007,Right-of-Way — Monthly Progress Report,Right-of-Way,Monthly Progress Report,2025-10-16,2025-11-15,Approved,2025-12-05,5,K. Osei
+SUB-0024,PRJ-2024-1007,Roadway — Permit Application,Roadway,Permit Application,2025-10-06,2025-11-05,Approved,2025-11-20,4,E. Zhang
+SUB-0025,PRJ-2024-1008,Geotechnical — Design Package,Geotechnical,Design Package,2026-03-05,2026-03-26,Under Review,,,L. Hartman
+SUB-0026,PRJ-2024-1008,Environmental — Shop Drawing,Environmental,Shop Drawing,2024-10-20,2024-11-03,Approved,2024-10-30,3,K. Osei
+SUB-0027,PRJ-2024-1008,Drainage — RFI Response,Drainage,RFI Response,2026-03-24,2026-04-23,Approved,2026-04-25,4,L. Hartman
+SUB-0028,PRJ-2024-1008,Geotechnical — Shop Drawing,Geotechnical,Shop Drawing,2025-03-26,2025-04-09,Approved as Noted,2025-05-03,4,E. Zhang
+SUB-0029,PRJ-2024-1009,Traffic / ITS — Schedule Update,Traffic / ITS,Schedule Update,2025-08-22,2025-09-12,Approved,2025-10-04,4,E. Zhang
+SUB-0030,PRJ-2024-1009,Environmental — QC Inspection Report,Environmental,QC Inspection Report,2024-11-11,2024-11-25,Approved,2024-11-19,5,P. Delgado
+SUB-0031,PRJ-2024-1009,Environmental — Shop Drawing,Environmental,Shop Drawing,2025-12-25,2026-01-24,Revise & Resubmit,2026-01-13,4,C. Mott
+SUB-0032,PRJ-2024-1009,Geotechnical — QC Inspection Report,Geotechnical,QC Inspection Report,2025-03-10,2025-03-24,Approved,2025-04-08,3,K. Osei
+SUB-0033,PRJ-2024-1010,Structures — RFI Response,Structures,RFI Response,2026-02-27,2026-03-29,Approved,2026-04-14,4,E. Zhang
+SUB-0034,PRJ-2024-1010,Utilities — Shop Drawing,Utilities,Shop Drawing,2025-07-07,2025-07-28,Approved,2025-08-07,5,C. Mott
+SUB-0035,PRJ-2024-1010,Utilities — Shop Drawing,Utilities,Shop Drawing,2025-07-31,2025-08-21,Approved,2025-08-30,3,C. Mott
+SUB-0036,PRJ-2025-1011,Roadway — Schedule Update,Roadway,Schedule Update,2026-03-21,2026-04-20,Under Review,,,L. Hartman
+SUB-0037,PRJ-2025-1011,Geotechnical — QC Inspection Report,Geotechnical,QC Inspection Report,2026-03-09,2026-04-08,Under Review,,,E. Zhang
+SUB-0038,PRJ-2025-1011,Geotechnical — RFI Response,Geotechnical,RFI Response,2025-12-23,2026-01-06,Approved,2025-12-27,4,C. Mott
+SUB-0039,PRJ-2025-1012,Geotechnical — Shop Drawing,Geotechnical,Shop Drawing,2026-04-23,2026-05-14,Under Review,,,P. Delgado
+SUB-0040,PRJ-2025-1012,Roadway — Shop Drawing,Roadway,Shop Drawing,2025-09-07,2025-10-07,Approved,2025-10-03,5,K. Osei
+SUB-0041,PRJ-2025-1013,Right-of-Way — Permit Application,Right-of-Way,Permit Application,2026-03-17,2026-04-07,Approved as Noted,2026-04-17,3,C. Mott
+SUB-0042,PRJ-2025-1013,Right-of-Way — RFI Response,Right-of-Way,RFI Response,2026-03-14,2026-03-28,Under Review,,,E. Zhang
+SUB-0043,PRJ-2025-1013,Roadway — Design Package,Roadway,Design Package,2026-01-20,2026-02-10,Approved,2026-01-29,4,L. Hartman
+SUB-0044,PRJ-2025-1013,Structures — Schedule Update,Structures,Schedule Update,2026-04-05,2026-04-19,Under Review,,,K. Osei
+SUB-0045,PRJ-2023-1014,Traffic / ITS — Schedule Update,Traffic / ITS,Schedule Update,2025-09-27,2025-10-27,Approved,2025-10-30,4,P. Delgado
+SUB-0046,PRJ-2023-1014,Drainage — Permit Application,Drainage,Permit Application,2025-11-04,2025-11-18,Revise & Resubmit,2025-11-08,5,C. Mott
+SUB-0047,PRJ-2025-1015,Traffic / ITS — RFI Response,Traffic / ITS,RFI Response,2026-03-19,2026-04-02,Under Review,,,E. Zhang
+SUB-0048,PRJ-2025-1015,Structures — Shop Drawing,Structures,Shop Drawing,2025-12-13,2025-12-27,Revise & Resubmit,2026-01-08,4,K. Osei
+SUB-0049,PRJ-2025-1015,Environmental — QC Inspection Report,Environmental,QC Inspection Report,2026-04-08,2026-04-29,Under Review,,,P. Delgado
+SUB-0050,PRJ-2025-1015,Geotechnical — Permit Application,Geotechnical,Permit Application,2026-02-04,2026-02-18,Approved,2026-03-09,4,L. Hartman
+SUB-0051,PRJ-2025-1016,Traffic / ITS — Monthly Progress Report,Traffic / ITS,Monthly Progress Report,2025-09-18,2025-10-02,Approved as Noted,2025-10-04,3,C. Mott
+SUB-0052,PRJ-2025-1016,Structures — Shop Drawing,Structures,Shop Drawing,2025-09-01,2025-10-01,Approved,2025-09-27,5,C. Mott
+SUB-0053,PRJ-2025-1016,Right-of-Way — QC Inspection Report,Right-of-Way,QC Inspection Report,2025-08-21,2025-09-04,Revise & Resubmit,2025-08-26,3,P. Delgado
+SUB-0054,PRJ-2025-1016,Structures — Schedule Update,Structures,Schedule Update,2026-04-26,2026-05-17,Under Review,,,K. Osei
+SUB-0055,PRJ-2025-1017,Drainage — Schedule Update,Drainage,Schedule Update,2026-03-02,2026-03-23,Approved,2026-03-31,4,L. Hartman
+SUB-0056,PRJ-2025-1017,Geotechnical — QC Inspection Report,Geotechnical,QC Inspection Report,2025-09-22,2025-10-06,Approved,2025-10-20,5,L. Hartman
+SUB-0057,PRJ-2025-1017,Traffic / ITS — Monthly Progress Report,Traffic / ITS,Monthly Progress Report,2026-02-28,2026-03-30,Approved,2026-04-07,3,K. Osei
+SUB-0058,PRJ-2025-1017,Right-of-Way — QC Inspection Report,Right-of-Way,QC Inspection Report,2026-02-04,2026-03-06,Approved,2026-02-16,4,K. Osei
+SUB-0059,PRJ-2025-1018,Environmental — QC Inspection Report,Environmental,QC Inspection Report,2025-10-19,2025-11-02,Approved,2025-10-23,4,C. Mott
+SUB-0060,PRJ-2025-1018,Structures — Schedule Update,Structures,Schedule Update,2026-03-15,2026-04-14,Under Review,,,L. Hartman
+SUB-0061,PRJ-2025-1018,Traffic / ITS — Permit Application,Traffic / ITS,Permit Application,2025-08-08,2025-08-22,Approved,2025-09-03,5,P. Delgado
+SUB-0062,PRJ-2025-1018,Traffic / ITS — RFI Response,Traffic / ITS,RFI Response,2025-12-29,2026-01-12,Approved,2026-01-17,4,P. Delgado
+SUB-0063,PRJ-2025-1019,Drainage — Schedule Update,Drainage,Schedule Update,2025-09-12,2025-10-03,Approved,2025-10-26,5,P. Delgado
+SUB-0064,PRJ-2025-1019,Traffic / ITS — RFI Response,Traffic / ITS,RFI Response,2026-04-09,2026-05-09,Under Review,,,C. Mott
+SUB-0065,PRJ-2025-1020,Roadway — Schedule Update,Roadway,Schedule Update,2026-04-05,2026-05-05,Approved,2026-04-25,5,C. Mott
+SUB-0066,PRJ-2025-1020,Drainage — QC Inspection Report,Drainage,QC Inspection Report,2025-08-23,2025-09-06,Approved,2025-09-19,3,E. Zhang
+SUB-0067,PRJ-2024-1021,Structures — Monthly Progress Report,Structures,Monthly Progress Report,2025-06-10,2025-07-10,Revise & Resubmit,2025-07-06,3,P. Delgado
+SUB-0068,PRJ-2024-1021,Geotechnical — Schedule Update,Geotechnical,Schedule Update,2024-09-09,2024-10-09,Approved,2024-10-21,4,L. Hartman
+SUB-0069,PRJ-2024-1022,Roadway — RFI Response,Roadway,RFI Response,2025-06-24,2025-07-08,Revise & Resubmit,2025-07-05,3,P. Delgado
+SUB-0070,PRJ-2024-1022,Geotechnical — QC Inspection Report,Geotechnical,QC Inspection Report,2026-03-23,2026-04-22,Under Review,,,L. Hartman
+SUB-0071,PRJ-2025-1023,Environmental — Shop Drawing,Environmental,Shop Drawing,2025-09-21,2025-10-05,Approved,2025-10-29,3,P. Delgado
+SUB-0072,PRJ-2025-1023,Structures — Shop Drawing,Structures,Shop Drawing,2025-10-15,2025-11-14,Approved as Noted,2025-12-05,4,L. Hartman
+SUB-0073,PRJ-2025-1023,Traffic / ITS — Shop Drawing,Traffic / ITS,Shop Drawing,2025-05-28,2025-06-18,Approved,2025-07-05,4,P. Delgado
+SUB-0074,PRJ-2024-1024,Right-of-Way — QC Inspection Report,Right-of-Way,QC Inspection Report,2026-03-15,2026-04-14,Under Review,,,L. Hartman
+SUB-0075,PRJ-2024-1024,Drainage — Design Package,Drainage,Design Package,2026-03-05,2026-03-19,Under Review,,,K. Osei
+SUB-0076,PRJ-2024-1024,Structures — Permit Application,Structures,Permit Application,2026-04-09,2026-05-09,Approved as Noted,2026-04-22,4,P. Delgado
+SUB-0077,PRJ-2024-1025,Traffic / ITS — Design Package,Traffic / ITS,Design Package,2025-10-29,2025-11-12,Approved as Noted,2025-12-06,3,L. Hartman
+SUB-0078,PRJ-2024-1025,Geotechnical — Monthly Progress Report,Geotechnical,Monthly Progress Report,2026-01-08,2026-02-07,Revise & Resubmit,2026-02-21,5,E. Zhang
+SUB-0079,PRJ-2024-1025,Traffic / ITS — Permit Application,Traffic / ITS,Permit Application,2024-10-31,2024-11-30,Revise & Resubmit,2024-12-23,4,C. Mott
+SUB-0080,PRJ-2024-1025,Drainage — Shop Drawing,Drainage,Shop Drawing,2024-05-18,2024-06-17,Approved,2024-06-10,4,E. Zhang
+SUB-0081,PRJ-2025-1026,Drainage — Schedule Update,Drainage,Schedule Update,2026-04-15,2026-05-06,Approved as Noted,2026-04-24,3,L. Hartman
+SUB-0082,PRJ-2025-1026,Geotechnical — RFI Response,Geotechnical,RFI Response,2026-01-18,2026-02-08,Approved,2026-02-24,5,P. Delgado
+SUB-0083,PRJ-2025-1026,Environmental — Schedule Update,Environmental,Schedule Update,2026-02-04,2026-03-06,Approved,2026-03-28,4,L. Hartman
+SUB-0084,PRJ-2025-1026,Environmental — Shop Drawing,Environmental,Shop Drawing,2026-03-22,2026-04-21,Revise & Resubmit,2026-04-11,3,L. Hartman
+SUB-0085,PRJ-2024-1027,Right-of-Way — Schedule Update,Right-of-Way,Schedule Update,2024-07-03,2024-07-17,Revise & Resubmit,2024-08-03,5,L. Hartman
+SUB-0086,PRJ-2024-1027,Traffic / ITS — Monthly Progress Report,Traffic / ITS,Monthly Progress Report,2025-03-25,2025-04-15,Revise & Resubmit,2025-04-20,5,P. Delgado
+SUB-0087,PRJ-2024-1027,Geotechnical — Design Package,Geotechnical,Design Package,2026-03-25,2026-04-15,Approved as Noted,2026-03-29,2,E. Zhang
+SUB-0088,PRJ-2025-1028,Utilities — Design Package,Utilities,Design Package,2025-12-26,2026-01-09,Approved,2026-01-17,4,K. Osei
+SUB-0089,PRJ-2025-1028,Structures — Design Package,Structures,Design Package,2025-07-31,2025-08-14,Approved,2025-09-03,4,E. Zhang
+SUB-0090,PRJ-2025-1028,Traffic / ITS — QC Inspection Report,Traffic / ITS,QC Inspection Report,2026-03-29,2026-04-12,Under Review,,,P. Delgado
+SUB-0091,PRJ-2025-1028,Traffic / ITS — Permit Application,Traffic / ITS,Permit Application,2025-06-07,2025-07-07,Revise & Resubmit,2025-07-13,4,C. Mott
+SUB-0092,PRJ-2025-1029,Right-of-Way — RFI Response,Right-of-Way,RFI Response,2025-10-27,2025-11-10,Approved,2025-11-25,4,L. Hartman
+SUB-0093,PRJ-2025-1029,Traffic / ITS — QC Inspection Report,Traffic / ITS,QC Inspection Report,2026-04-11,2026-04-25,Under Review,,,K. Osei
+SUB-0094,PRJ-2024-1030,Traffic / ITS — Design Package,Traffic / ITS,Design Package,2025-11-25,2025-12-25,Revise & Resubmit,2025-12-21,2,C. Mott
+SUB-0095,PRJ-2024-1030,Utilities — QC Inspection Report,Utilities,QC Inspection Report,2026-01-18,2026-02-01,Approved as Noted,2026-02-10,4,C. Mott
+SUB-0096,PRJ-2024-1030,Environmental — Shop Drawing,Environmental,Shop Drawing,2025-06-30,2025-07-21,Approved,2025-07-21,4,C. Mott
+SUB-0097,PRJ-2025-1031,Structures — Monthly Progress Report,Structures,Monthly Progress Report,2025-10-15,2025-11-14,Approved,2025-11-03,4,P. Delgado
+SUB-0098,PRJ-2025-1031,Structures — Permit Application,Structures,Permit Application,2026-03-11,2026-04-10,Under Review,,,K. Osei
+SUB-0099,PRJ-2025-1032,Drainage — QC Inspection Report,Drainage,QC Inspection Report,2025-10-22,2025-11-12,Revise & Resubmit,2025-10-30,5,L. Hartman
+SUB-0100,PRJ-2025-1032,Structures — RFI Response,Structures,RFI Response,2025-12-24,2026-01-14,Approved,2026-02-07,5,P. Delgado
+SUB-0101,PRJ-2024-1033,Traffic / ITS — Shop Drawing,Traffic / ITS,Shop Drawing,2025-06-16,2025-07-16,Approved as Noted,2025-07-28,4,C. Mott
+SUB-0102,PRJ-2024-1033,Right-of-Way — RFI Response,Right-of-Way,RFI Response,2025-01-02,2025-01-23,Revise & Resubmit,2025-01-18,5,P. Delgado
+SUB-0103,PRJ-2024-1033,Roadway — Shop Drawing,Roadway,Shop Drawing,2025-11-20,2025-12-11,Approved,2025-12-28,3,L. Hartman
+SUB-0104,PRJ-2025-1034,Right-of-Way — Shop Drawing,Right-of-Way,Shop Drawing,2025-12-30,2026-01-20,Approved,2026-01-13,4,C. Mott
+SUB-0105,PRJ-2025-1034,Drainage — Monthly Progress Report,Drainage,Monthly Progress Report,2025-11-28,2025-12-19,Approved as Noted,2025-12-08,5,K. Osei
+SUB-0106,PRJ-2025-1034,Drainage — RFI Response,Drainage,RFI Response,2026-04-04,2026-04-18,Approved,2026-04-21,4,L. Hartman
+SUB-0107,PRJ-2025-1034,Geotechnical — Schedule Update,Geotechnical,Schedule Update,2026-01-04,2026-02-03,Approved,2026-01-15,4,L. Hartman
+SUB-0108,PRJ-2024-1035,Traffic / ITS — RFI Response,Traffic / ITS,RFI Response,2025-02-26,2025-03-28,Revise & Resubmit,2025-04-18,4,E. Zhang
+SUB-0109,PRJ-2024-1035,Traffic / ITS — RFI Response,Traffic / ITS,RFI Response,2025-10-03,2025-10-17,Approved,2025-10-18,4,L. Hartman
+SUB-0110,PRJ-2024-1035,Utilities — Design Package,Utilities,Design Package,2024-05-12,2024-06-02,Approved as Noted,2024-06-02,3,E. Zhang
+SUB-0111,PRJ-2024-1035,Structures — RFI Response,Structures,RFI Response,2026-04-14,2026-05-14,Under Review,,,L. Hartman
+SUB-0112,PRJ-2025-1036,Structures — RFI Response,Structures,RFI Response,2025-09-07,2025-10-07,Approved,2025-10-04,4,L. Hartman
+SUB-0113,PRJ-2025-1036,Structures — Design Package,Structures,Design Package,2025-10-07,2025-11-06,Approved,2025-11-20,4,L. Hartman
+SUB-0114,PRJ-2024-1037,Traffic / ITS — RFI Response,Traffic / ITS,RFI Response,2025-07-12,2025-08-11,Approved,2025-08-15,5,E. Zhang
+SUB-0115,PRJ-2024-1037,Right-of-Way — Permit Application,Right-of-Way,Permit Application,2025-04-26,2025-05-10,Revise & Resubmit,2025-06-03,5,C. Mott
+SUB-0116,PRJ-2024-1037,Geotechnical — Shop Drawing,Geotechnical,Shop Drawing,2026-04-22,2026-05-22,Under Review,,,K. Osei
+SUB-0117,PRJ-2024-1038,Drainage — Design Package,Drainage,Design Package,2026-03-06,2026-04-05,Under Review,,,K. Osei
+SUB-0118,PRJ-2024-1038,Right-of-Way — Schedule Update,Right-of-Way,Schedule Update,2025-08-13,2025-09-12,Approved as Noted,2025-09-20,5,E. Zhang
+SUB-0119,PRJ-2025-1039,Traffic / ITS — RFI Response,Traffic / ITS,RFI Response,2025-07-22,2025-08-12,Approved,2025-08-11,4,C. Mott
+SUB-0120,PRJ-2025-1039,Right-of-Way — RFI Response,Right-of-Way,RFI Response,2025-12-26,2026-01-25,Revise & Resubmit,2026-01-02,3,K. Osei
+SUB-0121,PRJ-2025-1039,Utilities — Design Package,Utilities,Design Package,2025-10-09,2025-10-23,Approved,2025-11-16,5,P. Delgado
+SUB-0122,PRJ-2024-1040,Drainage — RFI Response,Drainage,RFI Response,2026-03-21,2026-04-20,Under Review,,,P. Delgado
+SUB-0123,PRJ-2024-1040,Drainage — Design Package,Drainage,Design Package,2024-07-10,2024-08-09,Approved,2024-07-17,5,L. Hartman
+SUB-0124,PRJ-2024-1041,Environmental — Schedule Update,Environmental,Schedule Update,2026-04-15,2026-04-29,Under Review,,,K. Osei
+SUB-0125,PRJ-2024-1041,Environmental — Permit Application,Environmental,Permit Application,2026-03-31,2026-04-14,Under Review,,,E. Zhang

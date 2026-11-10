@@ -22,7 +22,7 @@ import validation  # noqa: E402
 def make_clean_project(**overrides) -> dict:
     """One internally consistent project row; tests break exactly one rule at a time."""
     row = {
-        "project_id": "TDOT-2025-9001",
+        "project_id": "PRJ-2025-9001",
         "project_name": "I-40 Resurfacing – Test Co.",
         "route": "I-40",
         "county": "Davidson",

@@ -1,8 +1,8 @@
 """
-Generate synthetic transportation project data styled after TDOT project controls.
+Generate synthetic transportation project data styled after state DOT project controls.
 
 IMPORTANT: This is 100% fabricated data for portfolio/demo purposes.
-It does not use, reference, or reproduce any real TDOT records.
+It does not use, reference, or reproduce any real transportation agency records.
 
 Outputs three files in this directory:
   - projects.csv          one row per project (the portfolio)
@@ -24,7 +24,7 @@ TODAY = pd.Timestamp("2026-05-01")
 
 rng = np.random.default_rng(SEED)
 
-# TDOT operates in 4 regions. We cluster projects around the regional hub cities
+# The state is split into 4 regions. We cluster projects around the regional hub cities
 # and scatter them with noise so the map looks realistic.
 REGIONS = {
     "Region 1 (East)":      {"hub": (35.96, -83.92), "counties": ["Knox", "Blount", "Sevier", "Anderson", "Loudon"]},
@@ -99,7 +99,7 @@ def _make_project(i: int) -> dict:
         status = "On Track"
 
     return {
-        "project_id": f"TDOT-{start.year}-{1000 + i}",
+        "project_id": f"PRJ-{start.year}-{1000 + i}",
         "project_name": f"{route} {ptype} – {county} Co.",
         "route": route,
         "county": county,
